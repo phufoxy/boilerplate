@@ -4,12 +4,8 @@
   left: 0;
   right: 0;
   background-color: rgba(75, 193, 210, 0);
-<<<<<<< HEAD
-  z-index: 99;
-  @include transition(all 1.3s ease-in-out);
-=======
   @include transition(all 0.3s ease-in-out);
->>>>>>> feature/header
+  z-index: 99;
   .b-block-header {
     @include flexbox();
     @include align-items(center);
