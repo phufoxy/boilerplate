@@ -1,0 +1,7 @@
+body {
+  background-color: $cl_white;
+  @include rem("font-size", 14);
+  @include rem("line-height", 32);
+  margin: 0;
+  padding: 0;
+}
