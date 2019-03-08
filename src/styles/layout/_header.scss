@@ -4,12 +4,16 @@
   left: 0;
   right: 0;
   background-color: rgba(75, 193, 210, 0);
+<<<<<<< HEAD
   z-index: 99;
   @include transition(all 1.3s ease-in-out);
+=======
+  @include transition(all 0.3s ease-in-out);
+>>>>>>> feature/header
   .b-block-header {
     @include flexbox();
-    align-items: center;
-    justify-content: space-between;
+    @include align-items(center);
+    @include justify-content(space-between);
     .b-logo {
       width: 50%;
       img {
