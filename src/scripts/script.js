@@ -10,7 +10,7 @@ $(document).ready(function () {
             $("#b-page-header").css('background-color', 'rgba(75, 193, 210, ' + opacity + ')')
         }
     })
-    $(".b-link").click(function (e) {
+    $("#b-ripple").click(function (e) {
 
         // Remove any old one
         $(".ripple").remove();
